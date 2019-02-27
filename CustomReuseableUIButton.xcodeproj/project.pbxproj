@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89EAE22E324673D45627BF80 /* Pods_CustomReuseableUIButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B04E2BE0F410BF363141E84 /* Pods_CustomReuseableUIButton.framework */; };
 		C98C96BE2226EB56000DEC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C96BD2226EB56000DEC4A /* AppDelegate.swift */; };
 		C98C96C02226EB56000DEC4A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C96BF2226EB56000DEC4A /* RootViewController.swift */; };
 		C98C96C22226EB57000DEC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C96C12226EB57000DEC4A /* Assets.xcassets */; };
 		C98C96C52226EB57000DEC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98C96C32226EB57000DEC4A /* LaunchScreen.storyboard */; };
+		C98C96CD2226EE91000DEC4A /* PurpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C96CC2226EE91000DEC4A /* PurpleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B04E2BE0F410BF363141E84 /* Pods_CustomReuseableUIButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomReuseableUIButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783965888A39EB8BC1E76FA7 /* Pods-CustomReuseableUIButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomReuseableUIButton.debug.xcconfig"; path = "Target Support Files/Pods-CustomReuseableUIButton/Pods-CustomReuseableUIButton.debug.xcconfig"; sourceTree = "<group>"; };
 		C98C96BA2226EB56000DEC4A /* CustomReuseableUIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomReuseableUIButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C96BD2226EB56000DEC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98C96BF2226EB56000DEC4A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C98C96C12226EB57000DEC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98C96C42226EB57000DEC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C98C96C62226EB57000DEC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98C96CC2226EE91000DEC4A /* PurpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleButton.swift; sourceTree = "<group>"; };
+		D653DA98FF5C743F6296FE21 /* Pods-CustomReuseableUIButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomReuseableUIButton.release.xcconfig"; path = "Target Support Files/Pods-CustomReuseableUIButton/Pods-CustomReuseableUIButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EAE22E324673D45627BF80 /* Pods_CustomReuseableUIButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38DD01CC358AF3FFCE8DEEDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				783965888A39EB8BC1E76FA7 /* Pods-CustomReuseableUIButton.debug.xcconfig */,
+				D653DA98FF5C743F6296FE21 /* Pods-CustomReuseableUIButton.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54A8094CCB0D7625857EA416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E2BE0F410BF363141E84 /* Pods_CustomReuseableUIButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C98C96B12226EB56000DEC4A = {
 			isa = PBXGroup;
 			children = (
 				C98C96BC2226EB56000DEC4A /* CustomReuseableUIButton */,
 				C98C96BB2226EB56000DEC4A /* Products */,
+				38DD01CC358AF3FFCE8DEEDD /* Pods */,
+				54A8094CCB0D7625857EA416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 			children = (
 				C98C96BD2226EB56000DEC4A /* AppDelegate.swift */,
 				C98C96BF2226EB56000DEC4A /* RootViewController.swift */,
+				C98C96CC2226EE91000DEC4A /* PurpleButton.swift */,
 				C98C96C12226EB57000DEC4A /* Assets.xcassets */,
 				C98C96C32226EB57000DEC4A /* LaunchScreen.storyboard */,
 				C98C96C62226EB57000DEC4A /* Info.plist */,
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98C96C92226EB57000DEC4A /* Build configuration list for PBXNativeTarget "CustomReuseableUIButton" */;
 			buildPhases = (
+				7BBFF64345C916A544A19662 /* [CP] Check Pods Manifest.lock */,
 				C98C96B62226EB56000DEC4A /* Sources */,
 				C98C96B72226EB56000DEC4A /* Frameworks */,
 				C98C96B82226EB56000DEC4A /* Resources */,
+				170DE28DD6842A1857D9B80E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +155,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		170DE28DD6842A1857D9B80E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomReuseableUIButton/Pods-CustomReuseableUIButton-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomReuseableUIButton/Pods-CustomReuseableUIButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBFF64345C916A544A19662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomReuseableUIButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C98C96B62226EB56000DEC4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -133,6 +209,7 @@
 			files = (
 				C98C96C02226EB56000DEC4A /* RootViewController.swift in Sources */,
 				C98C96BE2226EB56000DEC4A /* AppDelegate.swift in Sources */,
+				C98C96CD2226EE91000DEC4A /* PurpleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +345,7 @@
 		};
 		C98C96CA2226EB57000DEC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783965888A39EB8BC1E76FA7 /* Pods-CustomReuseableUIButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +364,7 @@
 		};
 		C98C96CB2226EB57000DEC4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D653DA98FF5C743F6296FE21 /* Pods-CustomReuseableUIButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
